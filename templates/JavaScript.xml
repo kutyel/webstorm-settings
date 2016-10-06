@@ -1,6 +1,6 @@
 <templateSet group="JavaScript">
-  <template name="log" value="console.debug('$debug$', $END$);" description="Console log" toReformat="false" toShortenFQNames="true">
-    <variable name="debug" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="log" value="console.log('$data$', $data$);" description="Console log" toReformat="false" toShortenFQNames="true">
+    <variable name="data" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
