@@ -2,15 +2,15 @@
   <template name="log" value="console.log('$data$', $data$);" description="Console log" toReformat="false" toShortenFQNames="true">
     <variable name="data" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
   <template name="ajax" value="$.ajax({&#10;    url: url,&#10;    type: &quot;GET&quot;,&#10;    success: data =&gt; {&#10;        console.debug('data', data);&#10;        this.setState({&#10;            $state$: data&#10;        });&#10;    },&#10;    error: (req, status, err) =&gt; this.showErrorMessage(req, true)&#10;});" description="JQuery AJAX call ($.ajax())" toReformat="false" toShortenFQNames="true">
     <variable name="state" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
 </templateSet>
